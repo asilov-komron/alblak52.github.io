@@ -4,8 +4,6 @@
     font-family: Montserrat;
 }
 
-
-
 body {
     background-image: url('../media/gray_bg.jpg');
     background-position: 5rem 5rem;
@@ -49,8 +47,8 @@ label {
     font-weight: bold;
 }
 
-.in, select {
-    width: 100%;
+.in {
+    width: 25rem;
     padding: 0.5rem;
     margin-bottom: 1rem;
     box-sizing: border-box;
@@ -173,6 +171,17 @@ label {
         display: inline;
     }
 
+    form{
+        margin-left: 2rem;
+    }
+
+    .in {
+        width: 20rem;
+        padding: 0.5rem;
+        margin-bottom: 1rem;
+        box-sizing: border-box;
+        border-radius: 3px;
+    }
 
    
 }

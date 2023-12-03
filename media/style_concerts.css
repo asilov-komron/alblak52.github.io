@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+}
+
+body {
+    background-image: url('../media/gray_bg.jpg');
+    background-position: 5rem 5rem;
+}
+
+
+
+.al52 {
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0.938rem;
+    margin-bottom: 0;
+    display: inline;
+}
+
+.al52:hover {
+    color: rgb(136, 131, 131);
+}
+
+
+
+
+.concert-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.text-container{
+    margin-top: 3.75rem;
+}
+
+
+.text1{
+    color: white;
+    font-size: 2rem;
+    width: 31.25rem;
+    margin: 2.5rem;
+}
+
+
+
+.text2{
+    color: white;
+    font-size: 2rem;
+    width: 31.25rem;
+    margin: 2.5rem;
+    
+}
+
+.conc-link{
+    /* text-decoration: none; */
+    color: white;
+}
+
+.conc-link:hover{
+    color: gray;
+}
+
+
+
+.poster{
+    height: 43.75rem;
+    margin: 1.875rem;
+}
+
+
+
+
+
+.button-link {
+    display: inline-block;
+    padding: 0.625rem 1.25rem;
+    text-decoration: none;
+    color: #fff;
+    background-color: #000000;
+    border-radius: 0.625rem;
+    border: 2px solid white;
+    transition: background-color 0.3s ease;
+    margin-left: 2.5rem;
+
+}
+
+/* Hover effect */
+.button-link:hover {
+    background-color: #f2f2f2;
+    color: black;
+}
+
+
+
+/* for nav */
+
+.icon{
+    height: 1.875rem;
+    border: 0;
+    
+}
+
+.you{
+    height: 2.5rem;
+    border: 0;
+}
+
+.inp{
+    border: solid 1px;
+    border-radius: 1.875rem;
+}
+
+.znachki{
+    padding-left: 0.625rem;
+    padding-top: 0.438rem;
+}
+
+.nav-link{
+    font-size: 1.5rem;
+    color: white;
+}
+
+.navbar{
+    border: 1px solid white;
+
+    
+}
+
+
+
+
+
+
+
+
+
+.site-footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0.625rem;
+    width: 100%;
+}
+
+
+
+
+@media (max-width: 987px) {
+    /* for smaller screens */
+
+    .nav-link{
+        display: inline;
+    }
+
+    
+
+    .concert-container{
+        display: block;
+    }
+
+    .poster{
+        height: 25rem;
+       
+    }
+   .text1, .text2{
+        font-size: 1rem;
+        width: 15.625rem;
+   }
+}
+
+
+@media (max-width: 600px) {
+    /* for smaller screens */
+
+    .nav-link{
+        display: inline;
+    }
+
+    
+
+    .concert-container{
+        display: block;
+    }
+
+    .poster{
+        height: 25rem;
+       
+    }
+   .text1, .text2{
+        font-size: 1rem;
+        width: 15.625rem;
+   }
+}

@@ -1,0 +1,349 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+}
+
+body {
+    background-image: url('../media/longlive812.jpg');
+    background-position: 5rem 5rem;
+}
+
+
+
+.al52 {
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0.938rem;
+    margin-bottom: 0;
+    display: inline;
+}
+
+.al52:hover {
+    color: rgb(136, 131, 131);
+}
+
+
+
+
+
+
+
+.Sec {
+    background-color: black;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 5rem;
+    height: 1.875rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.813rem;
+    margin-left: 1.875rem;
+    color: white;
+}
+
+
+.Sec:hover {
+    color: rgb(8, 8, 8);
+    background-color: white;
+}
+
+.about {
+    max-width: 30rem; 
+    
+    color: white;
+    margin: 1.875rem; 
+    padding: 0.625rem;
+}
+
+
+
+
+
+#music-video {
+    width: 8.75rem;
+}
+
+
+
+.gal-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1.875rem;
+    
+}
+
+
+
+
+.images {
+    height: 11.25rem;
+    width: 20rem;
+    border-radius: 0.938rem;
+    transition: transform 0.3s ease; 
+  }
+  
+  .images.enlarged {
+    height: 15rem; 
+    width: 26.6rem; 
+    border-radius: 1rem; 
+    z-index: 2; 
+   
+  }
+
+
+.photo-desc{
+    display: block;
+    color: white;
+   
+   
+}
+
+.gallery1{
+    text-align: center;
+}
+
+.gallery2{
+    text-align: center;
+    width: 26.17rem;
+}
+
+
+.gallery3{
+    text-align: center;
+    width: 26.17rem;
+}
+
+
+
+
+
+
+
+.player-container{
+    display: flex;
+    column-gap: 5%;
+   
+    
+}
+
+.player {
+    margin-top: 1.25rem;
+    margin-left: 0.938rem;
+    margin-bottom: 1.25rem;
+    display: inline-block;
+    
+    
+}
+
+
+.player-text{
+    display: inline-block;
+    padding-top: 3.125rem;
+    margin-top: 3.125rem;
+    margin-bottom: 3.125rem;
+    color: white;
+    width: 31.25rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* for nav */
+
+.icon{
+    height: 1.875rem;
+    border: 0;
+    
+}
+
+.you{
+    height: 2.5rem;
+    border: 0;
+}
+
+.inp{
+    border: solid 1px;
+    border-radius: 1.875rem;
+}
+
+.znachki{
+    padding-left: 0.625rem;
+    padding-top: 0.438rem;
+}
+
+.nav-link{
+    font-size: 1.5rem;
+    color: white;
+}
+
+.navbar{
+    border: 1px solid white;
+
+    
+}
+
+.site-footer {
+    background-color: #212529;
+    color: #fff;
+    text-align: center;
+    padding: 0.625rem;
+    width: 100%;
+}
+
+
+
+
+
+
+@media (max-width: 987px) {
+    /* for smaller screens */
+
+    .nav-link{
+        display: inline;
+    }
+
+    .icons {
+        display: inline-block;
+    }
+
+    .about {
+        max-width: 30rem;
+        margin-left: 1.875rem;
+        margin-top: 1.875rem;
+    }
+
+
+
+    .gal-container{
+       
+        display: block;
+        justify-content: space-evenly;
+        margin-top: 1.875rem;
+        
+    }
+
+    #gal1{
+        margin-left: 3.125rem;
+    }
+
+    .gallery1{
+        text-align: left;
+        display: inline;
+    }
+
+    #photo-desc1{
+    color: white;
+    display: block;
+    max-width: 70%;
+    margin-left: 10%;
+    }
+
+    .photo-desc{
+        display: inline-block;
+    }
+
+
+
+   .player-container {
+        display: block;
+    }
+ 
+    .player {
+        margin-top: 0.625rem;
+        max-width: 90%; 
+    }
+    
+    .player-text{
+        color: white;
+        max-width: 25rem;
+        margin-left: 2.5rem;
+        margin-top: 3.125rem;
+    }
+    
+    
+   
+}
+
+
+
+
+@media (max-width: 600px) {
+    /* for smaller screens */
+
+    .nav-link{
+        display: inline;
+    }
+
+    .icons {
+        display: inline-block;
+    }
+
+    .about {
+        max-width: 25rem;
+        margin-left: 1.875rem;
+        margin-top: 1.875rem;
+    }
+
+
+
+    .gal-container{
+       
+        display: block;
+        justify-content: space-evenly;
+        margin-top: 1.875rem;
+        
+    }
+
+    #gal1{
+        margin-left: 3.125rem;
+    }
+
+    .gallery1{
+        text-align: left;
+        display: inline;
+    }
+
+    #photo-desc1{
+    color: white;
+    display: block;
+    max-width: 70%;
+    margin-left: 10%;
+    }
+
+    .photo-desc{
+        display: inline-block;
+    }
+
+
+
+   .player-container {
+        display: block;
+    }
+ 
+    .player {
+        margin-top: 0.625rem;
+        max-width: 90%; 
+    }
+    
+    .player-text{
+        color: white;
+        width: 20rem;
+        margin-left: 2.5rem;
+        margin-top: 3.125rem;
+    }
+    
+    
+   
+}
